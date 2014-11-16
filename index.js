@@ -1,3 +1,5 @@
+'use strict';
+
 var request = require('request');
 var url = require('url');
 var path = require('path');
@@ -34,7 +36,7 @@ module.exports = function github(opts) {
           + '&code=' + code
           + '&state=' + state;
 
-        request.get({url:accessURL, json: true}, function (err, res, body) {
+        request.get({url: accessURL, json: true}, function (err, res, body) {
           if (err) {
             return cb(err);
           }
