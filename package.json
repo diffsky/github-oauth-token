@@ -14,9 +14,9 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:diffsky/github-oauth-token.git"
+    "url": "git@github.com:matthewhadley/github-oauth-token.git"
   },
   "bugs": {
-    "url": "https://github.com/diffsky/github-oauth-token/issues"
+    "url": "https://github.com/matthewhadley/github-oauth-token/issues"
   }
 }
